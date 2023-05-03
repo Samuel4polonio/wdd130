@@ -6,13 +6,13 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #FFA000  ;
-  --secondary-color: #FFC107 ;
-  --accent1-color: #F57F17;
-  --accent2-color: #FFF8E1;
+  --primary-color: #3399cc  ;
+  --secondary-color: #66ccff ;
+  --accent1-color: #006699;
+  --accent2-color: #CCFFCC;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Castoro Titling";
+  --heading-font: "IM French Canon";
   --paragraph-font: Lora, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -20,11 +20,11 @@ Fonts are separated by a & */
   --headline-color-on-color: #000000; /* headlines on a colored background */ 
   --paragraph-color-on-white: #000000  ; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #000000 ; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #FFA000   ;
+  --paragraph-background-color: #3399cc   ;
   --nav-link-color: #000000 ;
-  --nav-background-color: #FFA000 ;
+  --nav-background-color: #66ccff ;
   --nav-hover-link-color: #FFF8E1;
-  --nav-hover-background-color: #FFC107 ;
+  --nav-hover-background-color: #006699 ;
 }
 
 
