@@ -1,93 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - CreativelyAI</title>
-    <link rel="stylesheet" href="styles/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - CreativelyAI</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <style>
+    body, html {
+    background-color: #000000;
+      height: 100%;
+      margin: 0;
+      font: 400 15px/1.8 "Jost", sans-serif;
+      color: #777;
+      font-size: 22px;
+    }
+        
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      position: relative;
+      opacity: 0.65;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+        
+    }
+    .bgimg-1 {
+      background-image: url("images/aiforbusiness.png");
+      min-height: 100%;
+    }
+        
+    .bgimg-2 {
+      background-image: url("images/aiforbusiness.png");
+      min-height: 400px;
+    }
+        
+    .bgimg-3 {
+      background-image: url("images/aicreative.png");
+      min-height: 400px;
+    }
+        
+    .caption {
+      position: absolute;
+      left: 0;
+      top: 30%;
+      width: 100%;
+      text-align: center;
+      color: #000;
+    }
+        
+    .caption span.border {
+      background-color: #111;
+      color: #fff;
+      padding: 18px;
+      font-size: 35px;
+      letter-spacing: 10px;
+    }
+        
+    h3 {
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      font: 20px "Roboto", sans-serif;
+      color: #111;
+    }
 
+
+
+
+
+
+
+
+
+
+
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+        min-height: 400px;
+    }
+
+    .bottom-left {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+    }
+
+    .top-left {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+    }
+
+    .top-right {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+    }
+
+    .bottom-right {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+    }
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    
+        
+    /* Turn off parallax scrolling for tablets and phones */
+    @media only screen and (max-device-width: 1024px) {
+      .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+      }
+    }
+  </style>
 
 </head>
 
 
 <body>
-
-
         
-        <header>
-            <!-- logo -->
-            <a id="logo_link" href="index.html">
-                <img class="logo" src="images/logo1.jpg" alt="CreativelyAI">
+    <header>
+        <!-- logo -->
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/logo1.jpg" alt="CreativelyAI">
+        </a>
+        <!-- Navigation Bar -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="ai_in_business.html">AI in Business</a>
+            <a href="ai_in_creativity.html">AI in Creativity</a>
+        </nav>
+    </header>
+
+
+
+    <div class="bgimg-1">
+        <div class="caption">
+            <span class="border">AI in Business</span>
+        </div>
+    </div>
+      
+    <div style="color: #777;background-color:#f1902f;text-align:center;padding:50px 80px;text-align: justify;">
+        <h3 style="text-align:left;">Learn and Grow</h3>
+        <p>Harness the Power of AI in Business with CreativelyAI. Leverage predictive analysis, automate routine tasks, optimize operational efficiency, and transform your customer experience. AI is more than a tool; it's your business's strategic ally.</p>
+    </div>
+      
+
+      
+    <div style="position:relative;">
+        <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+            <p>Explore the intersection of AI and creativity with CreativelyAI. Discover how AI can enhance your artistry, assist in content creation, and even help in generating novel ideas. Embrace the future of creativity today</p>
+        </div>
+    </div>
+      
+
+
+    <div class="bgimg-2">
+        <div class="bottom-left">Bottom Left</div>
+        <div class="top-left">Top Left</div>
+        <div class="top-right">Top Right</div>
+        <div class="bottom-right">Bottom Right</div>
+        <div class="centered">Centered</div>
+    </div>
+
+
+      
+    <div style="position:relative;">
+        <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+           <p>Explore the intersection of AI and creativity with CreativelyAI. Discover how AI can enhance your artistry, assist in content creation, and even help in generating novel ideas. Embrace the future of creativity today.</p>
+        </div>
+    </div>
+
+    
+
+
+
+
+
+
+
+    <footer>
+        <!-- Footer content goes here -->
+        <p>CreativelyAI &copy; 2023 - Samuel Apolônio</p>
+        <a href="site_plan.html">Site Plan</a>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
             </a>
-            <!-- Navigation Bar -->
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="ai_in_business.html">AI in Business</a>
-                <a href="ai_in_creativity.html">AI in Creativity</a>
-            </nav>
-        </header>
-        
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+    </footer>
 
-        <div class="bgimg-1">
-            <div class="caption">
-            <span class="border">SCROLL DOWN</span>
-            </div>
-          </div>
-          
-          <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-            <h3 style="text-align:center;">Parallax Demo</h3>
-            <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
-          </div>
-          
-          <div class="bgimg-2">
-            <div class="caption">
-            <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">LESS HEIGHT</span>
-            </div>
-          </div>
-          
-          <div style="position:relative;">
-            <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-            <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
-            </div>
-          </div>
-          
-          <div class="bgimg-3">
-            <div class="caption">
-            <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
-            </div>
-          </div>
-          
-          <div style="position:relative;">
-            <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-            <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
-            </div>
-          </div>
-          
-          <div class="bgimg-1">
-            <div class="caption">
-            <span class="border">COOL!</span>
-            </div>
-          </div>
-
-
-
-
-        <footer>
-            <!-- Footer content goes here -->
-            <p>CreativelyAI &copy; 2023 - Samuel Apolônio</p>
-            <a href="site_plan.html">Site Plan</a>
-            <p><a href="contactus.html">Contact Us</a></p>
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="images/facebook.png" alt="fb icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="images/twitter.png" alt="twitter icon">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="instagram icon">
-        </footer>
-    </div>    
 </body>
 </html>
